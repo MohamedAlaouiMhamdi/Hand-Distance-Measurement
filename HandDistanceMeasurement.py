@@ -88,12 +88,5 @@ while True:
     
     # Exit the loop if 'q' key is pressed
     k = cv2.waitKey(1)
-    if k == ord('s'):
-        img_name = f"hand_distance_{img_counter}.png"
-        cv2.imwrite(img_name, frame)
-        print(f"{img_name} saved")
-        img_counter += 1
-    
-    # Exit the loop if 'q' key is pressed
-    if k == ord('q'):
+    if cv2.waitKey(1) & 0xff==ord('q'):
         break
