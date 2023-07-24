@@ -30,7 +30,7 @@ The Hand Distance Measurement project uses Google's Mediapipe library to accurat
 ## My Project
  This is a description of my awesome project!
  <img
-  src="one_hand_1"
+  src="one_hand_1.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
