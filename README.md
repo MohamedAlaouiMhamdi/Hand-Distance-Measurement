@@ -10,6 +10,7 @@ This Python project uses the Mediapipe library to measure the distance between t
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
+- [Features](#MyProject)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -26,6 +27,13 @@ The Hand Distance Measurement project uses Google's Mediapipe library to accurat
 - Visualization of the hand landmarks and bounding box on the video stream.
 - Interactive display of the computed distance in centimeters on the video feed.
 - Capability to capture images of the video frames for analysis or documentation.
+## My Project
+ This is a description of my awesome project!
+ <img
+  src="one_hand_1"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ## Installation
 
