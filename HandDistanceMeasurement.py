@@ -60,6 +60,11 @@ while True:
             myHand["bbox"] = bbox
             myHand["center"] = (cx, cy)
             myHand["type"] = handType.classification[0].label
+            #if you dont flip the image
+            ''' if handType.classification[0].label == "Right":
+                        myHand["type"] = "Left"
+            else:
+                        myHand["type"] = "Right"'''
             allHands.append(myHand)
             
             # Draw landmarks and bounding box on the frame
