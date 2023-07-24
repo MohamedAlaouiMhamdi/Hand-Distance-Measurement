@@ -31,15 +31,11 @@ The Hand Distance Measurement project uses Google's Mediapipe library to accurat
 
 1. Clone the repository to your local machine:
 2. Install the required packages using pip:
-3. ## Usage
+## Usage
 
 1. Run the Python script:
-
 2. A window will open displaying the webcam feed with real-time hand landmark detection. Place your hand in front of the camera to see the computed distance between the thumb and the index finger in centimeters.
-
-3. To capture an image of the video frame, press the 's' key. The image will be saved in the same directory as the script with a filename in the format "hand_distance_X.png", where X is an incrementing counter.
-
-4. Press the 'q' key to exit the application.
+3. Press the 'q' key to exit the application.
 
 ## Contributing
 
